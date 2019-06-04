@@ -1,0 +1,5 @@
+<div class="container">
+  <app-heroform (signal)="addHero($event)"></app-heroform>
+  <hr>
+  <app-herolist [myHeroes]="service.heroes"></app-herolist>
+</div>
