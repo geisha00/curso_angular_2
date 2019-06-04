@@ -20,7 +20,7 @@ import { BeersComponent } from './components/beers/beers.component';
 import { AlcoholPipe } from './pipes/alcohol.pipe';
 import { Ng5SliderModule } from 'ng5-slider';
 import {NgPipesModule} from 'ngx-pipes';
-import { PruebaComponent } from './componets/prueba/prueba.component';
+
 
 
 
@@ -36,7 +36,7 @@ import { PruebaComponent } from './componets/prueba/prueba.component';
     ApodComponent,
     BeersComponent,
     AlcoholPipe,
-    PruebaComponent,
+   
   ],
   imports: [
     BrowserModule,
